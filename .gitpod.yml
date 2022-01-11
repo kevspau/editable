@@ -1,5 +1,7 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+      echo 'n'
+      export PATH=/home/gitpod/.nimble/bin:$PATH
     command: |
       echo 'TODO: start app'
